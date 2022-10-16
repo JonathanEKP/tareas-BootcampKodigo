@@ -1,1 +1,1 @@
-# Ejercicios practicos en el bootcamp de front end dev de Kodigo
+# Ejercicios practicos del bootcamp de front end dev de Kodigo
