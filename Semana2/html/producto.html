@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Registro de producto</legend>
+        <form action="mensaje.html">
+            Codigo:<input type="text" class="caja"><br>
+            Descripcion: <input type="text" class="caja"><br>
+            Codigo de barra: <input type="text"class="caja"><br>
+            Precio unitario: <input type="text" class="caja"><br>
+            Stock: <input type="text" class="caja"><br>
+            Proveedor: <input type="text" class="caja"><br>
+            Estado: <input type="checkbox" class="caja" id="check" name="check"><span>Activo</span><br>
+            Categoria:
+            <select name="menu" id="menu" class="caja">
+                <option value="1">Categoria 1</option>
+                <option value="2">Categoria 2</option>
+                <option value="3">Categoria 3</option>
+                <option value="4">Categoria 4</option>
+            </select><br>
+            <input type="submit" value="Guardar">
+            <a href="../index.html">
+                <button type="button">Cancelar</button>
+            </a>
+        </form>
+    </fieldset>
+</body>
+</html>
